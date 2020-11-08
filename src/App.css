@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .App {
+	max-width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+  }
+  
+  .heading {
+
+	display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: #384763;
+    font-family: cursive;
+    font-weight: 500;
+	text-shadow: 1px 2px 4px rgb(26, 38, 129);
+	text-decoration: underline;
+  }
+  
+  
+  body {
+  
+	background-image: linear-gradient(to bottom, rgb(177, 192, 226) , white);
+	background-repeat: no-repeat;
+  }
